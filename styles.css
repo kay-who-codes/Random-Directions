@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Dark Mode Styles */
+  body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styles */
+  .container {
+    text-align: center;
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header Styles */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Arrow Container Styles */
+  #arrow-container {
+    margin: 1.5rem 0;
+    opacity: 1; /* Default opacity */
+    transition: opacity 0.2s ease; /* Smooth fade effect */
+  }
+  
+  /* Arrow Image Styles */
+#arrow-container img {
+    width: 200px; /* Adjust the size of the arrow */
+    height: auto;
+  }
+  
+  /* Direction Label Styles */
+  #direction-label {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    opacity: 1; /* Default opacity */
+    transition: opacity 0.5s ease; /* Smooth fade effect */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.5rem;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+  }
