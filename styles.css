@@ -68,3 +68,7 @@
   button:hover {
     background-color: #357abd;
   }
+
+button:active {
+  scale: 95%
+}
